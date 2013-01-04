@@ -3,14 +3,14 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'guard/jshaml/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'guard-jshaml'
+  s.name        = 'guard-templates-jshaml'
   s.version     = 0.1
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Sébastien Drouyer']
   s.email       = ['sdrdis@hotmail.com']
   s.homepage    = 'https://github.com/sdrdis/guard-templates-jshaml/'
-  s.summary     = %q{Guard gem for JSHaml}
-  s.description = %q{Compiles file.jshaml into file.js}
+  s.summary     = %q{Guard templates extension for jshaml}
+  s.description = %q{Compiles file.jshaml into valid javascript}
 
   s.rubyforge_project = 'guard-templates-jshaml'
 
